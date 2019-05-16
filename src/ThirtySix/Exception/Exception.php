@@ -1,8 +1,8 @@
-<?php
+<?php 
 
 namespace Exception;
 
-class ControllerNotFound extends \Exception{
+class Exception{
     
     public function __construct(){
         die('here');

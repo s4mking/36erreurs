@@ -1,13 +1,13 @@
 {
   "name": "supinternet/36errors",
   "require": {
-    "php"                   : ">=5.5"
+    "php": ">=5.5"
   },
   "autoload": {
       "psr-0": { 
         "ThirtySix": "src",
         "Controller": "src", 
-        "Model": "src",
+        "Model": "src"
       }
   }
 }

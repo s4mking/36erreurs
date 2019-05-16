@@ -5,9 +5,10 @@
 
   <?php foreach($winners as $winner):?>
     <div class="col-sm-3" style="margin-bottom:20px">
-      <h4 class="cut"><?php echo $category[$winner['category_id']]['title']?></h4>
+    <?php /*var_dump($category);*/ ?>
+      <h4 class="cut"><?php echo $categories[$winner['category_id']]['title']?></h4>
           <div style="position:relative">
-              <img src="/nominee/image/<?php echo $winner['id']?>" class="img-responsive">
+              <img src="<?php echo $winner['pic_url']?>" class="img-responsive">
             </div>
             <div  class="cut nomine">
               <?php echo $winner['name']?>

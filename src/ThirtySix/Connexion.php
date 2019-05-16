@@ -5,7 +5,7 @@ class Connexion{
 
   private static $_instance = null;
 
-  private function __construct(){
+  public function __construct(){
   
   }
 
