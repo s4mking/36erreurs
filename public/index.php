@@ -31,8 +31,6 @@ if(isset($url_composants[2])){
 }
 
 try{
-var_dump($controller_name);
-var_dump($action_name);
   list($controller, $action) = ThirtySix\Router::load($controller_name,$action_name);
 
 }catch(ThirtySix\Exception\ControllerNotFound $e){

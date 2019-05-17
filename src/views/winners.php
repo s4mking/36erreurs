@@ -23,7 +23,7 @@
 
 <ol>
 <?php foreach($bestplayers as $player):?>
-  <li><?php echo $player['screen_name']?> : <?php echo $player['w']?> pts</li>
+  <li><?php echo $player['screen_name']?> : <?php echo $player['score']?> pts</li>
 <?php endforeach;?>
 </ol>
 
